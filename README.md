@@ -10,6 +10,7 @@ To perform regular differncing,seasonal adjustment and log transformatio on inte
 4. Plot the data according to need, before and after regular differncing,seasonal adjustment,log transformation.
 5. Display the overall results.
 ### PROGRAM:
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -105,6 +106,7 @@ plt.show()
 # Line plot of all generated columns
 data.plot(figsize=(12,6))
 plt.show()
+```
 
 ### OUTPUT:
 
